@@ -7,22 +7,23 @@ const data = [
   "Job": "Data Analyst",
   "Period": "Jan 2024 - Present",
   "Description": [
-    "Work with other departments to gain insights and identify opportunities",
-    "Find and analyze data for other departments to address their challenges",
-    "Present data to other departments to provide insights",
-    "Evaluate features to inform the product team about necessary improvements to boost engagement and retention"]
+    "Collaborated with various departments to gather insights and identify opportunities for improvement.",
+    "Analyzed and provided data-driven solutions to address departmental challenges.",
+    "Presented data insights to departments to support informed decision-making.",
+    "Assessed features and provided recommendations to the product team for enhancing user engagement and retention."]
   },
   {
     "Image": "assets/experiences/sed.png",
     "Location": "Solve Education",
     "Job": "Data Engineer",
     "Period": "Sep 2023 - Present",
-    "Description": [
-      "Developed and managed data pipelines using Airflow",
-      "Deployed Airflow on AWS EC2 instances",
-      "Designed and created views in BigQuery",
-      "Built and maintained dashboards in Metabase and Looker Studio",
-      "Optimized SQL queries for improved performance"]
+    "Description": [  
+      "Developed and managed data pipelines leveraging Apache Airflow.",
+      "Deployed and maintained Airflow environments on AWS EC2 instances",
+      "Designed and implemented views in Google BigQuery.",
+      "Proficient in containerizing Airflow using Docker and Docker Compose",
+      "Built and maintained analytical dashboards using Metabase and Looker Studio.",
+      "Optimized SQL queries to enhance performance."]
   },
   {
     "Image": "assets/experiences/No-Code.png",
@@ -30,14 +31,14 @@ const data = [
     "Job": "Python Developer Intern",
     "Period": "Feb 2023 - Sep 2023",
     "Description": [
-      "Build and deploying API to AWS EC2 and GCP Compute Engine",
-      "Pointing IP address to DNS cloudflared using setup tunel in virtual machine (linux)",
-      "Build API using python (FastAPI, Flask)",
-      "Build user authentication using FastAPI for login and signup",
-      "Create automation using Processio software",
-      "Build ETL to move data from CSV to PostgreSQL database using Python",
-      "Able to work with cloud",
-      "Working with SQL"
+      "Built and deployed APIs to AWS EC2 and GCP Compute Engine.",
+      "Configured IP address routing to DNS using Cloudflare Tunnel on Linux virtual machines.",
+      "Developed APIs using Python frameworks such as FastAPI and Flask.",
+      "Implemented user authentication for login and signup functionalities using FastAPI.",
+      "Automated processes using Processio software.",
+      "Developed ETL pipelines to transfer data from CSV files to a PostgreSQL database using Python.",
+      "Proficient in working with cloud platforms.",
+      "Experienced in writing and optimizing SQL queries."
     ]
   },
   {
@@ -46,12 +47,12 @@ const data = [
     "Job": "Data Science Intern",
     "Period": "Feb 2023 - Sep 2023",
     "Description": [
-      "Build nails segmentation model using Tensorflow",
-      "Build age detection model",
-      "Image processing to detect wrinkle and face's moisture",
-      "Using openCV to image processing",
-      "Using tensorflow to build architecture of Yolo and U-net",
-      "Able to use transfer learning and fine tuned the dataset"
+      "Developed a nail segmentation model using TensorFlow.",
+      "Created an age detection model.",
+      "Implemented image processing techniques to detect wrinkles and facial moisture.",
+      "Utilized OpenCV for advanced image processing tasks.",
+      "Designed and built YOLO and U-Net architectures with TensorFlow.",
+      "Proficient in transfer learning and fine-tuning datasets for improved model performance."
     ]
   },
 ];
