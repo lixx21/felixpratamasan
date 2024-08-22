@@ -24,7 +24,7 @@ const HeroSection = () => {
 
                     <div className='flex items-center'>
 
-                        <a href="https://drive.google.com/file/d/14P-QcXefKv9MkpR112ro4RpQgetajo3r/view?usp=sharing" className='text-base text-white font-semibold 
+                        <a href="https://drive.google.com/file/d/1bXEbJEl10QpszC21dzm2b9IWKMnkGeK0/view?usp=sharing" className='text-base text-white font-semibold 
                             bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out
                             2xl:text-xl' target="_blank">
                                 Resume

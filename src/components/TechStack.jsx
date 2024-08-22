@@ -24,7 +24,8 @@ const data =
   "assets/tech_icons/css.png",
   "assets/tech_icons/html.png",
   "assets/tech_icons/nodejs.png",
-  "assets/tech_icons/react.png"
+  "assets/tech_icons/react.png",
+  "assets/tech_icons/Nest.js.png"
   
   ]
 
