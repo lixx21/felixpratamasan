@@ -2,6 +2,22 @@ import React from 'react'
 
 const data = [
     {
+        "url": "https://github.com/lixx21/legal-document-assistant",
+        "Image":"assets/projects/llm-rag-flow.png",
+        "Title":"Legal Document Assistant",
+        "Description": "A Retrieval-Augmented Generation (RAG) application for querying legal documents. It uses PostgreSQL, Elasticsearch, and LLM to provide summaries and suggestions based on user queries. Features data ingestion with Airflow, real-time monitoring with Grafana, and a Streamlit interface.",
+        "Tech": [
+            "Python",
+            "Elastic Search",
+            "PostgreSQL",
+            "Airflow",
+            "Streamlit",
+            "Grafana",
+            "Google BERT"
+        ]
+        
+    },
+    {
         "url": "https://github.com/lixx21/OCR-KTP",
         "Image":"assets/projects/ocr.png",
         "Title":"Object Character Recognition",
@@ -41,21 +57,7 @@ const data = [
             "MongoDB"
         ]
         
-    },
-    {
-        "url": "https://github.com/lixx21/simple_object_localization_app",
-        "Image":"assets/projects/object-localization.png",
-        "Title":"Object Localization",
-        "Description": "This project is to localization and predict an object in the image note: this project only detect cucumber, eggplant, and mushroom due the dataset that I used only contains those object.",
-        "Tech": [
-            "Python",
-            "Tensorflow",
-            "Flask",
-            "OpenCV",
-            "HTML"
-        ]
-        
-    },
+    }
 ]
 
 const Projects = () => {
