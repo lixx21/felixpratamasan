@@ -8,9 +8,10 @@ const data = [
   "Period": "Jan 2024 - Present",
   "Description": [
     "Collaborated with various departments to gather insights and identify opportunities for improvement.",
-    "Analyzed and provided data-driven solutions to address departmental challenges.",
-    "Presented data insights to departments to support informed decision-making.",
-    "Assessed features and provided recommendations to the product team for enhancing user engagement and retention."]
+    "Created dynamic reports and dashboards in Spreadsheets to visualize program performance metrics, which were regularly presented to the program team for review and decision-making.",
+    "Assessed features and provided recommendations to the product team for enhancing user engagement and retention.",
+    "Developed custom queries in BigQuery to analyze large datasets, identifying trends, patterns, and key performance indicators (KPIs) critical to program success.",
+    "Monitored data for anomalies and inconsistencies, issuing timely alerts to the team when critical issues or potential risks were detected that could negatively impact business operations."]
   },
   {
     "Image": "assets/experiences/sed.png",
@@ -18,12 +19,16 @@ const data = [
     "Job": "Data Engineer",
     "Period": "Sep 2023 - Present",
     "Description": [  
-      "Developed and managed data pipelines leveraging Apache Airflow.",
-      "Deployed and maintained Airflow environments on AWS EC2 instances",
+      "Developed and maintained a scalable data pipeline using Apache Airflow, ensuring efficient and automated data flow across multiple sources.",
+      "Designed and implemented DAGs (Directed Acyclic Graphs) to orchestrate ETL (Extract, Transform, Load) processes, including data extraction, transformation, and loading into a data warehouse.",
+      "Deployed and maintained Airflow environments on AWS EC2 instances.",
       "Designed and implemented views in Google BigQuery.",
-      "Proficient in containerizing Airflow using Docker and Docker Compose",
+      "Proficient in containerizing Airflow using Docker and Docker Compose.",
       "Built and maintained analytical dashboards using Metabase and Looker Studio.",
-      "Optimized SQL queries to enhance performance."]
+      "Optimized pipeline and SQL performance, reducing the time to process data by 40%, resulting in faster access to key insights for decision-making.",
+      "Automated complex workflows, reducing manual intervention by 80%, which significantly improved data processing efficiency.",
+      "Collaborated with cross-functional teams to define data pipeline requirements, troubleshoot issues, and ensure continuous data delivery for analytics and reporting.",
+      "Integrated monitoring using Grafana and alerting features in Airflow to track task execution, detect failures, and trigger notifications, ensuring smooth operations."]
   },
   {
     "Image": "assets/experiences/No-Code.png",
