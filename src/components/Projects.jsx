@@ -18,6 +18,21 @@ const data = [
         
     },
     {
+        "url": "https://github.com/lixx21/airflow-dbt-gcp",
+        "Image":"assets/projects/airflow-dbt-gcp.png",
+        "Title":"Building Data Warehouse with Airflow, DBT and GCP ",
+        "Description": "A comprehensive data pipeline leveraging Airflow, DBT, Google Cloud Platform (GCP), and Docker to extract, transform, and load data seamlessly from a staging layer to a data warehouse and data mart.",
+        "Tech": [
+            "Python",
+            "Airflow",
+            "DBT",
+            "Docker",
+            "BigQuery",
+            "GCP"
+        ]
+        
+    },
+    {
         "url": "https://github.com/lixx21/OCR-KTP",
         "Image":"assets/projects/ocr.png",
         "Title":"Object Character Recognition",
@@ -28,20 +43,6 @@ const data = [
             "Flask",
             "OpenCV",
             "Tesseract"
-        ]
-        
-    },
-    {
-        "url": "https://github.com/lixx21/LLM-DataTalks-FAQ",
-        "Image":"assets/projects/llm.png",
-        "Title":"LLM DataTalks FAQ Chatbot",
-        "Description": "Developed a sophisticated Chatbot App designed to handle Frequently Asked Questions (FAQs) for DataTalks, leveraging the capabilities of Large Language Models (LLMs)",
-        "Tech": [
-            "Python",
-            "ElasticSearch",
-            "Mistral.AI",
-            "Docker",
-            "Streamlit"
         ]
         
     },
