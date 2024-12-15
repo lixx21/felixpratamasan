@@ -1,39 +1,46 @@
 import {React, useState, useEffect} from 'react'
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const data = [
   {
   "Image": "assets/experiences/sed.png",
   "Location": "Solve Education",
-  "Job": "Data Analyst",
-  "Period": "Jan 2024 - Present",
+  "Job": "Data Engineer & Analyst",
+  "Period": "Sep 2023 - Present",
   "Description": [
-    "Collaborated with various departments to gather insights and identify opportunities for improvement.",
-    "Created dynamic reports and dashboards in Spreadsheets to visualize program performance metrics, which were regularly presented to the program team for review and decision-making.",
-    "Assessed features and provided recommendations to the product team for enhancing user engagement and retention.",
-    "Developed custom queries in BigQuery to analyze large datasets, identifying trends, patterns, and key performance indicators (KPIs) critical to program success.",
-    "Monitored data for anomalies and inconsistencies, issuing timely alerts to the team when critical issues or potential risks were detected that could negatively impact business operations."]
+    "Collaborated with cross-functional teams to gather insights, analyze data, and identify opportunities for improvement.",
+    "Designed and optimized scalable data pipelines using Apache Airflow and BigQuery, automating workflows and increasing data processing efficiency by 80%.",
+    "Processed and transformed over 300 million data records through advanced ETL processes, enabling comprehensive analytics and reporting.",
+    "Developed analytical dashboards (Metabase, Looker Studio) and dynamic reports, empowering teams with actionable insights and improving decision-making.",
+    "Reduced data processing time up to 96% through pipeline optimization, ensuring faster access to key insights.",
+    "Implemented integrated monitoring and alerting systems, enabling timely detection and resolution of data anomalies, ensuring seamless operations.",
+    "Proficient in containerizing Airflow using Docker and Docker Compose.",
+    "Delivered data-driven recommendations that enhanced program performance, user engagement, and retention, contributing to measurable business improvements."]
   },
-  {
-    "Image": "assets/experiences/sed.png",
-    "Location": "Solve Education",
-    "Job": "Data Engineer",
-    "Period": "Sep 2023 - Present",
-    "Description": [  
-      "Developed and maintained a scalable data pipeline using Apache Airflow, ensuring efficient and automated data flow across multiple sources.",
-      "Designed and implemented DAGs (Directed Acyclic Graphs) to orchestrate ETL (Extract, Transform, Load) processes, including data extraction, transformation, and loading into a data warehouse.",
-      "Deployed and maintained Airflow environments on AWS EC2 instances.",
-      "Designed and implemented views in Google BigQuery.",
-      "Proficient in containerizing Airflow using Docker and Docker Compose.",
-      "Built and maintained analytical dashboards using Metabase and Looker Studio.",
-      "Optimized pipeline and SQL performance, reducing the time to process data by 40%, resulting in faster access to key insights for decision-making.",
-      "Automated complex workflows, reducing manual intervention by 80%, which significantly improved data processing efficiency.",
-      "Collaborated with cross-functional teams to define data pipeline requirements, troubleshoot issues, and ensure continuous data delivery for analytics and reporting.",
-      "Integrated monitoring using Grafana and alerting features in Airflow to track task execution, detect failures, and trigger notifications, ensuring smooth operations."]
-  },
+  // {
+  //   "Image": "assets/experiences/sed.png",
+  //   "Location": "Solve Education",
+  //   "Job": "Data Engineer",
+  //   "Period": "Sep 2023 - Present",
+  //   "Description": [  
+  //     "Developed and maintained a scalable data pipeline using Apache Airflow, ensuring efficient and automated data flow across multiple sources.",
+  //     "Designed and implemented DAGs (Directed Acyclic Graphs) to orchestrate ETL (Extract, Transform, Load) processes, including data extraction, transformation, and loading into a data warehouse.",
+  //     "Deployed and maintained Airflow environments on AWS EC2 instances.",
+  //     "Designed and implemented views in Google BigQuery.",
+  //     "Proficient in containerizing Airflow using Docker and Docker Compose.",
+  //     "Built and maintained analytical dashboards using Metabase and Looker Studio.",
+  //     "Optimized pipeline and SQL performance, reducing the time to process data by 40%, resulting in faster access to key insights for decision-making.",
+  //     "Automated complex workflows, reducing manual intervention by 80%, which significantly improved data processing efficiency.",
+  //     "Collaborated with cross-functional teams to define data pipeline requirements, troubleshoot issues, and ensure continuous data delivery for analytics and reporting.",
+  //     "Integrated monitoring using Grafana and alerting features in Airflow to track task execution, detect failures, and trigger notifications, ensuring smooth operations."]
+  // },
   {
     "Image": "assets/experiences/No-Code.png",
     "Location": "Nocode Magician",
-    "Job": "Python Developer Intern",
+    "Job": "Backend - Python Developer Intern",
     "Period": "Feb 2023 - Sep 2023",
     "Description": [
       "Built and deployed APIs to AWS EC2 and GCP Compute Engine.",
@@ -106,6 +113,39 @@ const Experiences = () => {
             ))}
 
           </div>
+
+          {/* <div className='bg-background text-white'>
+            {data.map((item,index)=>(
+              <Accordion defaultExpanded={index === 0} style={{borderRadius: '100px'}}>
+                <AccordionSummary 
+                  expandIcon= {<ExpandMoreIcon style={{ color: "#FFFFFF"}} />}
+                  aria-controls={`${index}-content`}
+                  id={`${index}-header`}
+                  style={{ backgroundColor: '#171717', color: '#0ea5e9', fontSize: '20px', border: '2px solid white', borderRadius: '10px'}}
+                >
+                  <p style={{ textAlign: 'left' }}>
+                  {item.Job} @ {item.Location}
+                    <span style={{ textAlign: 'right' }}>
+                      {item.Period}
+                    </span>
+                  </p>
+                  
+                </AccordionSummary>
+                <AccordionDetails
+                  style={{backgroundColor: '#171717', color: '#FFFFFF',}}
+                >
+                <ul className='pb-12 list-disc px-6 text-sm pt-2 text-slate-400 lg:text-lg lg:px-4'>
+                {item.Description.map((desc,i)=> (
+                  <li key={i}>{desc}</li>
+                  ))}  
+                </ul>
+                </AccordionDetails>
+              </Accordion>
+
+          ))}
+
+          </div> */}
+        
 
         </div>
 
