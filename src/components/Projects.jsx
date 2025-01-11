@@ -20,7 +20,7 @@ const data = [
     {
         "url": "https://github.com/lixx21/airflow-dbt-gcp",
         "Image":"assets/projects/airflow-dbt-gcp.png",
-        "Title":"Building Data Warehouse with Airflow, DBT and GCP ",
+        "Title":"Data Warehouse with Airflow, DBT and GCP ",
         "Description": "A comprehensive data pipeline leveraging Airflow, DBT, Google Cloud Platform (GCP), and Docker to extract, transform, and load data seamlessly from a staging layer to a data warehouse and data mart.",
         "Tech": [
             "Python",
@@ -47,15 +47,17 @@ const data = [
         
     },
     {
-        "url": "https://github.com/lixx21/Movies-List-API",
-        "Image":"assets/projects/crud-typescript.png",
-        "Title":"Movies List REST API",
-        "Description": "This project focuses on building a robust CRUD API using Express.js, TypeScript, and MongoDB. The goal is to create a scalable backend system that can perform Create, Read, Update, and Delete operations on movie data.",
+        "url": "https://github.com/lixx21/data-engineer-christmas-data",
+        "Image":"assets/projects/christmas-project.png",
+        "Title":"Christmas Data Engineer Project",
+        "Description": "The Christmas Project is a festive-themed data engineering initiative designed to integrate and analyze diverse datasets, creating a comprehensive view of Christmas-related trends. Leveraging modern cloud and data technologies, it brings together music, movies, sales, and weather data to showcase how technology can enhance the holiday spirit.",
         "Tech": [
-            "Javascript",
-            "Typescript",
-            "Express.JS",
-            "MongoDB"
+            "AWS Glue",
+            "AWS S3",
+            "Python",
+            "Airflow",
+            "Snowflake",
+            "Power BI"
         ]
         
     }
@@ -87,7 +89,7 @@ const Projects = () => {
                         <div className='min-h-48'>
                             <h4 className='text-left uppercase text-white font-bold text-xl pt-6'>
                                 {item.Title}</h4>
-                            <p className='pt-4 text-slate-300 text-left'>
+                            <p className='pt-4 text-slate-300 text-left line-clamp-3'>
                                 {item.Description}
                             </p>
                             
