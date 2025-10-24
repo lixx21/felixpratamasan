@@ -5,11 +5,24 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const data = [
+    {
+  "Image": "assets/experiences/Danone_Logo_RGB_Primary_Watercolor-320x356.png",
+  "Location": "Danone",
+  "Job": "Data Analyst",
+  "Period": "Jan 2025 - Present",
+  "Description": [
+    "Designed and developed Power BI dashboards and reports to support business needs and provideactionable insights",
+    "Created DAX measures and calculated columns to deliver complex business logic and KPI calculations.",
+    "Mapped, transformed, and modeled data from various sources including Excel, Snowflake, and SemanticModels to build effective data models for reporting.",
+    "Integrated multiple data sources to create unified and reliable reports, enhancing cross-functionalvisibility.",
+    "Collaborated closely with stakeholders to gather reporting requirements, design report layouts, andrefine dashboards based on feedback."
+]
+  },
   {
   "Image": "assets/experiences/sed.png",
   "Location": "Solve Education",
   "Job": "Data Engineer & Analyst",
-  "Period": "Sep 2023 - Present",
+  "Period": "Sep 2023 - Jan 2025",
   "Description": [
     "Collaborated with cross-functional teams to gather insights, analyze data, and identify opportunities for improvement.",
     "Designed and optimized scalable data pipelines using Apache Airflow and BigQuery, automating workflows and increasing data processing efficiency by 80%.",
@@ -157,5 +170,6 @@ const Experiences = () => {
     </section>
   )
 }
+
 
 export default Experiences
