@@ -16,7 +16,7 @@ const HeroSection = () => {
                     </h1>
                     <h2 className='font-medium text-white text-3xl mb-5 mt-4 lg:text-6xl 2xl:text-7xl'>
                         
-                        <ReactTyped strings={["Data Analyst"]} typeSpeed={85} loop/>
+                        <ReactTyped strings={["Data Engineer & Analyst"]} typeSpeed={85} loop/>
                     </h2>
                     <p className='font-medium text-slate-400 mb-10 leading-relaxed 2xl:text-2xl'>
                     I am a TensorFlow Developer Certified professional with a strong passion for becoming a Software Engineer, AI Engineer, or Data Engineer. I am proficient in collaborative teamwork and thrive in dynamic, team-oriented environments.
@@ -78,4 +78,5 @@ const HeroSection = () => {
 
 
 export default HeroSection
+
 
